@@ -14,7 +14,7 @@ def mean_list(arr):
 
 
 def test_sum_list():
-    """ Simple tests """
+    """ Tests """
     assert(mean_list([]) == None)
     assert(mean_list([3, 4, 5]) == 4)
 

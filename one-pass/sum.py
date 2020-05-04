@@ -11,7 +11,7 @@ def sum_list(arr):
 
 
 def test_sum_list():
-    """ Simple tests """
+    """ Tests """
     assert(sum_list([]) == 0)
     assert(sum_list([3, 3, 3]) == 9)
     assert(sum_list('test') == 'Use only list with numbers for this function')

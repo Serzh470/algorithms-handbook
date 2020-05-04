@@ -15,7 +15,7 @@ def max_list(arr):
 
 
 def test_sum_list():
-    """ Simple tests """
+    """ Tests """
     assert(max_list([]) == None)
     assert(max_list([3, 4, 5]) == 5)
 
