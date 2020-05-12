@@ -23,7 +23,7 @@ def eratosthen(max):
 
 
 
-def test_sum_list():
+def test_eratosthen():
     """ Tests """
     assert(eratosthen(30) == {2, 3, 5, 7, 11, 13, 17, 19, 23, 29})
 
