@@ -11,7 +11,7 @@ def euclidean(a, b):
     return gcd
 
 
-def test_sum_list():
+def test_euclidean():
     """ Tests """
     assert(euclidean(30, 18) == 6)
     assert(euclidean(10, 10) == 10)

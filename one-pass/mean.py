@@ -13,7 +13,7 @@ def mean_list(arr):
     return m
 
 
-def test_sum_list():
+def test_mean_list():
     """ Tests """
     assert(mean_list([]) == None)
     assert(mean_list([3, 4, 5]) == 4)

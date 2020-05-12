@@ -6,7 +6,7 @@ def count_list(arr):
     return c
 
 
-def test_sum_list():
+def test_count_list():
     """ Tests """
     assert(count_list([]) == 0)
     assert(count_list([3, 3, 3]) == 3)
