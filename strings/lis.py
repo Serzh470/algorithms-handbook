@@ -1,16 +1,14 @@
 """ Longest increasing subsequence """
 
 def lis(a):
-    n = len(a)
-    lis = [1]*n  
-    for i in range (1, n):
-        for j in range(0, i):
-            if a[i] > a[j] and lis[i] < lis[j] + 1 :
-                lis[i] = lis[j] + 1
+    F = [0] * len(a)
+    for i in range(len(a)):
+        for j in range(i):
+            if a[j] < a[i] and F[j] > F[i]:
+                F[i] = F[j]
+        F[i] += 1
 
-    m = 0
-    for i in range(n):
-        m = max(m, lis[i]) 
+    m = max(F)
 
     return m
 
